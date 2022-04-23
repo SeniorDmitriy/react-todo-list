@@ -13,7 +13,7 @@ const App = () => {
 
 	return (
 		<div className='container bg-white p-4 mt-5'>
-			<h1>My Todo List: {todoItems.length}</h1>
+			<h1>Todos: ({todoItems.length})</h1>
 			<AddTodoForm />
 			<TodoList />
 			<TotalCompleteItems />
